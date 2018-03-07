@@ -1,0 +1,72 @@
+.nvabar {grid-area: header}
+.pagetitle {grid-area: mycontent}
+.sidebar {grid-area: side}
+.footer {grid-area: footer}
+
+.pagegrid {
+    display: grid;
+    grid-row-gap: 40px;
+    grid-column: 650px 270px;
+    grid-row: 92px 480px 92px;
+    grid-template-areas: 
+        "header header"
+        "content side"
+        "footer footer";
+}
+
+ul .navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    align-content: center;
+    text-align: center;
+    border-bottom: #cccccc;
+    border-style: solid;
+    border-bottom-width: 4px;
+}
+
+li {
+    float: right;
+}
+li a {
+    align-content: center;
+    padding-left: 15px;
+    font-size: 14px;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    display: block;
+    position: relative;
+    background-color: #ffffff;
+    color: #777777;
+}
+#name {
+    align-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    padding: 36px 30px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    float: left;
+}
+
+.pagetitle {
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
+
+.content {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.sidebar {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
+
+.footer {
+    align-content: center;
+    text-align: center;
+}
